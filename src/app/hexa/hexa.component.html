@@ -1,0 +1,11 @@
+<div class="container">
+    <div *ngFor="let item of final;">
+        
+        <p> {{item.username}} -- <b>{{item.gender}} </b>-- {{item.name}} -- {{item.designation}} -- {{item.email}} -- {{item.phone_number}}  -- {{item.complete_address
+         }}</p> 
+       </div>
+</div>
+<div class="container">
+    <button (click)="emit()">Emit</button>
+</div>
+
